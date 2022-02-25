@@ -47,10 +47,10 @@ const Nav = () => {
             <li className='text-xl w-full my-5'>
               <AiOutlineClose onClick={() => setToggleMenu(false)} />
             </li>
-            <li className='text-xl w-full my-5 text-center cursor-pointer'>
+            <li className='text-xl w-full my-5 text-center cursor-pointer' onClick={() => {setType('movie')}}>
               Movies
             </li>
-            <li className='text-xl w-full my-5 text-center cursor-pointer'>
+            <li className='text-xl w-full my-5 text-center cursor-pointer' onClick={() => {setType('tv')}}>
               {' '}
               Tv Shows
             </li>
